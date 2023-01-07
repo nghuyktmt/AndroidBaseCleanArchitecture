@@ -21,9 +21,9 @@ object Logger {
         }
     }
 
-    fun e(throwable: Throwable, message: String) {
+    fun e(throwable: Throwable, message: String? = null) {
         if (LOGGABLE) {
-            com.orhanobut.logger.Logger.e(message)
+            com.orhanobut.logger.Logger.e(throwable, message ?: "")
         }
     }
 
