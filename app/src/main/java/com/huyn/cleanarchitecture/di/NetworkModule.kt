@@ -63,7 +63,7 @@ class NetworkModule {
     @Provides
     @Singleton
     fun provideChuckInterceptor(@ApplicationContext app: Context): ChuckInterceptor {
-        return ChuckInterceptor(app)
+        return ChuckInterceptor(app).apply { showNotification(false) }
     }
 
     @Provides
