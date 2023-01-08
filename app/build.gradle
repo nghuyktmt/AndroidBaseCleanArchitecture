@@ -19,7 +19,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField 'String', 'UNSPLASH_ACCESS_KEY', '"Client-ID d132f67143bf64c0c12e5eceb8ab9006bbda519a5857720bf6c68ad0adc4c2a3"'
+        buildConfigField 'String', 'UNSPLASH_ACCESS_KEY', '"Client-ID 2v_cUjeerZhbE_MNS4iaYMBWsscfsuy2JvjlXLYdG1o"'
     }
 
     buildTypes {
